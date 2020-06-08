@@ -1,6 +1,4 @@
 import React, { useEffect , Fragment } from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import StateTimelineChart from './StateTimelineChart';
 import { getDistricts, getStateTimeline } from '../../store/actions/districts';

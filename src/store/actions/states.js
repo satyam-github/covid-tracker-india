@@ -15,7 +15,7 @@ export const getStateData = () => async dispatch => {
 
         const res = await axios.get('https://api.covid19india.org/data.json');
         // console.log(res.data.cases_time_series);
-        console.log(res.data.statewise);
+        // console.log(res.data.statewise);
         dispatch({
             type: actionTypes.FETCH_STATES_SUCCESS,
             stateData: res.data.statewise.filter(state => state.state !== 'State Unassigned'),
@@ -23,7 +23,7 @@ export const getStateData = () => async dispatch => {
         })
 
     } catch (err) {
-        console.log(err);
+        // console.log(err);
         dispatch({
             type: actionTypes.FETCH_STATES_FAIL,
             error: err

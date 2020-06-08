@@ -1,5 +1,4 @@
 import React, { useEffect , Fragment } from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getStateData } from '../../store/actions/states';
 import State from './State/State';

@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import classes from './State.module.css';
 
 const State = (props) => {
 

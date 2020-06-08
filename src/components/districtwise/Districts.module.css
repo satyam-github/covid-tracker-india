@@ -1,0 +1,16 @@
+.Box2 {
+    display: inline-block;
+    align-items: center;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 1px #ccc;
+    border: 1px solid #AA6817;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.Box1 {
+    display: grid;
+    gridTemplateColumns: 'repeat(3, 1fr)'; 
+    gridGap: '10px'; 
+    gridAutoRows: 'minMax(100px, auto)';
+}

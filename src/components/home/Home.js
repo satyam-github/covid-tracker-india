@@ -20,7 +20,7 @@ const Home = (props) => {
         </div>
     );
 
-}
+} 
 
 const mapStateToProps = state => ({
     stateData: state.states.stateData,

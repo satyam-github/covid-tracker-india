@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 const State = (props) => {
-
+ 
     const stateData = props.stateData.map(state => (
 
             <tr key={state.state} 

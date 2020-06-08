@@ -8,6 +8,6 @@ const navigationItems = (props) => (
         <NavigationItem link="/" exact>Home</NavigationItem>
         <NavigationItem link="/resources" exact>Resources</NavigationItem>
     </ul>
-);
+);  
 
 export default navigationItems;

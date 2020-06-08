@@ -54,7 +54,7 @@ const getDistrictZones = (stateName) => async dispatch => {
 }
 
 export const getStateTimeline = (stateName) => async dispatch => {
-
+ 
     try {
         dispatch({
             type: actionTypes.FETCH_STATE_TIMELINE_START

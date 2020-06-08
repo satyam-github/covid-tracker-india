@@ -4,7 +4,7 @@ const initialState = {
     resources: [],
     loaded: false,
     error: null
-};
+}; 
 
 const reducer = (state=initialState, action) => {
     switch (action.type) {

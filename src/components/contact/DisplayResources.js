@@ -25,6 +25,6 @@ const DisplayResources = (props) => {
             ))}
         </div>
     )
-}
+} 
 
 export default DisplayResources;

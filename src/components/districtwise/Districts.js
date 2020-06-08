@@ -9,7 +9,7 @@ const Districts = (props) => {
         props.getDistricts(props.match.params.id);
         props.getStateTimeline(props.match.params.id);
         // console.log(props.districtData);
-    }, []);
+    }, []); 
 
     return (
         <div className="container">

@@ -60,7 +60,7 @@ const DisplayChart = (props) => {
             borderWidth: 1,
             pointRadius: 1,
             data: props.nationalTimeline.map(day => (day.totalrecovered))
-          },
+          }, 
         ]
       }
 

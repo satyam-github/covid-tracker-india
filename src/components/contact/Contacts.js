@@ -50,7 +50,7 @@ const Contact = (props) => {
     );
 
 }
-
+ 
 const mapStateToProps = state => ({
     resources: state.contacts.resources,
     isLoaded: state.contacts.loaded,

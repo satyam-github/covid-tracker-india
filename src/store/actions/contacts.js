@@ -12,7 +12,7 @@ export const getResources = () => async dispatch => {
         dispatch({
             type: actionTypes.FETCH_CONTACTS_SUCCESS,
             resources: res.data.resources
-        })
+        }) 
 
     } catch(err) {
         // console.log(err);

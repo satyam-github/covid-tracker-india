@@ -2,7 +2,7 @@ import React from 'react';
 import { Bar, Pie, Line } from 'react-chartjs-2';
 
 const StateTimelineChart = (props) => {
-
+ 
     const lineChart = {
         labels: props.stateTimelineData.map(state => (state.day)),
         datasets: [
